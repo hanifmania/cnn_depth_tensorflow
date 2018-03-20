@@ -34,5 +34,6 @@ def convert_nyu(path):
 
 if __name__ == '__main__':
     current_directory = os.getcwd()
+    #nyu_path = 'C:\Users\lenovo\Downloads\cafe'
     nyu_path = 'data/nyu_depth_v2_labeled.mat'
     convert_nyu(nyu_path)
